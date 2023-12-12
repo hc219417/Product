@@ -1,0 +1,2 @@
+# Product
+Inheritance class
