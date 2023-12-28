@@ -1,6 +1,6 @@
 # Product
 
-Congratulations! You are enrolling at Hogwarts School of Witchcraft and Wizardry. Fill out an order and select a wand, house robe, broomstick, owl, and event to attend.
+Congratulations! You are enrolling at Hogwarts School of Witchcraft and Wizardry. Fill out an order and select a wand, house robe, broomstick, owl, and event to attend!
 
 This project contains a group of classes, including a parent class and five other classes which are children of this class. These children, as all they really need are input and output functions, are virtual in the parent.
 
