@@ -4,9 +4,9 @@ Congratulations! You are enrolling at Hogwarts School of Witchcraft and Wizardry
 
 This project contains a group of classes, including a parent class and five other classes which are children of this class. These children, as all they really need are input and output functions, are virtual in the parent.
 
-A UML class diagram which describes these classes has been constructed using Star UML (download for free at https://staruml.io/download) and is available in the form of a .mdj file.
+A UML class diagram which describes these classes has been constructed using *Star UML* (download for free at https://staruml.io/download) and is available in the form of a .mdj file.
 
-<img src="./project5/STAR UML/uml pic.png" width="810" height="540">
+<img src="./project5/star uml/diagram pic.png" width="600" height="400">
 
 The application for this project declares an *STL list* of pointers of the parent class (`Product`) which dynamically holds allocated products that have been ordered. The user is presented with a menu from which they can choose a product that they would like to order. They are then taken to an input function for that item where they can enter its attributes. Once the customized product is constructed, it is put into the list with the `push_back` member function.
 
