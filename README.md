@@ -6,6 +6,8 @@ This project contains a group of classes, including a parent class and five othe
 
 A UML class diagram which describes these classes has been constructed using Star UML (download for free at https://staruml.io/download) and is available in the form of a .mdj file.
 
+<img src="./project5/uml pic.png" width="600" height="400">
+
 The application for this project declares an *STL list* of pointers of the parent class (`Product`) which dynamically holds allocated products that have been ordered. The user is presented with a menu from which they can choose a product that they would like to order. They are then taken to an input function for that item where they can enter its attributes. Once the customized product is constructed, it is put into the list with the `push_back` member function.
 
 The menu also offers a means to view all the items in the list. Since the list class has no “`show_all`” function, we rely on the iterator to do this, and note that since we are storing pointers to items instead of the items itself, and since non-member overloaded operators don’t work well with this paradigm, the syntax for outputting each thing looks like: `(*it) -> output(cout);`
